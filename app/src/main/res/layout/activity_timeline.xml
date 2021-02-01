@@ -18,11 +18,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvTweets"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="0dp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvTweets"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:nestedScrollingEnabled="false" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </RelativeLayout>
